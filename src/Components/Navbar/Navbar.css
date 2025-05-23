@@ -1,0 +1,24 @@
+ .btn {
+    padding: 12.5px 30px;
+    border: 0;
+    border-radius: 100px;
+    background-color:#EF7D00;
+    color: #ffffff;
+    font-weight: Bold;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+  }
+
+  .btn:hover {
+    background-color:#f59b3b;
+    /* box-shadow: 0 0 20px rgb(193, 168, 78) ; */
+    transform: scale(1.1);
+  }
+
+  .btn:active {
+    background-color:#eb9a44;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+    transform: scale(0.98);
+  }
