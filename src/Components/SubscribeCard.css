@@ -1,0 +1,76 @@
+  /* Background container */
+.subscribe-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background: linear-gradient(135deg, #1e3a8a, #2563eb, #1e40af); */
+  background: linear-gradient(135deg, #004d8c, #005daa, #0073c2);
+  padding: 20px;
+}
+
+/* Card */
+.subscribe-card {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 2rem;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Title & Text */
+.subscribe-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.subscribe-text {
+  font-size: 0.9rem;
+  color: black;
+  margin: 0.5rem 0 1.5rem;
+}
+
+/* Input */
+.subscribe-input {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  color: black;
+}
+
+/* Button */
+.subscribe-button {
+  width: 100%;
+  /* background-color: #34d399; */
+background: linear-gradient(135deg, #f97316, #fb923c, #facc15);
+
+  color: white;
+  padding: 0.75rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 9999px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.subscribe-button:hover {
+  background-color: #347deb
+}
+.subscribe-dropdown {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  background-color: white;
+  color: #333;
+  cursor: pointer;
+}
